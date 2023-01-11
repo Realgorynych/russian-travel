@@ -1,6 +1,9 @@
 .header__lang__link{
-    position: absolute;
+display: flex;
 margin:18px 0 6px 0;
 color:#FFFFFF ;
+gap: 47px;
+justify-content: flex-end;
+width: 30px;
 
 }
