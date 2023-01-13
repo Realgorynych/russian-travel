@@ -1,7 +1,5 @@
-.lead{
+.lead {
     width: 984px;
     height: 1005px;
-    /* display: flex; */
-    margin:56px auto 92px auto;
-    }
-    
+    margin: 56px auto 92px auto;
+}

@@ -1,4 +1,7 @@
 @media screen and (max-width: 1024px){
+    .page{
+        max-width: 1024px;
+    }
 .lead__image{
     width: 928px;
     height: 580px;
@@ -14,10 +17,11 @@
 
 }
 @media all and (max-width: 768px){
-
+    .page{
+        max-width: 768px;
+    }
     .lead__image{
         width: 100%;
-        height: 480px;  
     }
     .place__image{
         width: 340px;
@@ -30,6 +34,9 @@
     
 }
 @media all and (max-width: 320px){
+    .page{
+        max-width: 320px;
+    }
     .lead__image{
         width: 100%;
         height: 320px;  
@@ -41,6 +48,9 @@
     .cover__background{
         width: 100%;
         height: 320px;
+    }
+    .footer{
+        flex-direction: row;
     }
     
 }

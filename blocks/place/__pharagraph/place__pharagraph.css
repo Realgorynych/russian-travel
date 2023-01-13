@@ -1,15 +1,10 @@
-.place__pharagraph{
-    
+.place__pharagraph {
     width: 484px;
     margin: 0;
     font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 163%;
-/* or 29px */
-
-
-color: #FFFFFF;
-
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #FFFFFF;
 }

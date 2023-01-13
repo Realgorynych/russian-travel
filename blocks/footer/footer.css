@@ -1,5 +1,5 @@
-.footer{
-    width: 1184px;
+.footer {
+    width: calc(100% - 96px);
     height: 18px;
     margin: 92px auto 0 auto;
     padding: 0 0 24px 0;
@@ -7,4 +7,4 @@
     justify-content: center;
     align-items: center;
     gap: 18px;
-    }
+}
