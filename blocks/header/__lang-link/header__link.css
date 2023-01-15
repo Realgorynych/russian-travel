@@ -1,7 +1,7 @@
 .header__lang-link {
     display: flex;
     margin: 18px 0 6px 0;
-    gap: 47px;
+    margin: 0 0 0 18px;
     justify-content: flex-end;
     width: 30px;
     font-family: 'Inter';
@@ -14,5 +14,8 @@
 }
 
 .header__lang-link:hover {
+    text-decoration: underline;
+}
+.header__lang-link:first-child {
     text-decoration: underline;
 }
