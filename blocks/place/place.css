@@ -1,4 +1,6 @@
 .place {
     margin: 92px auto 80px auto;
     width: 984px;
+    display: flex;
+    flex-direction: row;
 }

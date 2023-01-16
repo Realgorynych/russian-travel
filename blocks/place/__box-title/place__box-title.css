@@ -1,7 +1,12 @@
 .place__box-title {
-    display: flex;
+    /* display: flex;
     margin: 0;
     width: 984px;
-    max-width: 1184px;
+    max-width: 1184px; */
 
+    display: flex;
+    width: 460px;
+    margin: 0;
+    align-items: flex-start;
+    flex-direction: column;
 }
