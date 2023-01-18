@@ -1,12 +1,10 @@
 .place__box-title {
-    /* display: flex;
-    margin: 0;
-    width: 984px;
-    max-width: 1184px; */
-
     display: flex;
-    width: 460px;
-    margin: 0;
-    align-items: flex-start;
-    flex-direction: column;
+}
+
+@media screen and (max-width: 320px) {
+    .place__box-title {
+        flex-direction: column;
+    }
+
 }
