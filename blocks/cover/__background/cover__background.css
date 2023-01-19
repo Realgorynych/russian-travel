@@ -7,23 +7,22 @@
     max-width: 1184px;
     min-height: 740px;
 }
+
 @media screen and (max-width: 1024px) {
     .cover__background {
         max-width: 1024px;
     }
-
 }
 
 @media screen and (max-width: 768px) {
     .cover__background {
         max-width: 768px;
     }
-
 }
+
 @media screen and (max-width: 320px) {
     .cover__background {
         max-width: 320px;
         min-height: 200px;
     }
-
 }

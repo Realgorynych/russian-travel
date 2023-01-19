@@ -1,5 +1,5 @@
 .footer__link-element {
-    margin: 0 18px 0 0;
+    margin: 0 0 0 0;
     font-family: 'Inter', "Arial";
     font-style: normal;
     font-weight: 400;
@@ -7,6 +7,11 @@
     line-height: 18px;
     color: #FFFFFF;
     text-decoration: none;
+    transition: 1s ease-in-out;
+}
+
+.footer__link-element:hover{
+opacity: 0.8;
 }
 
 @media screen and (max-width: 320px) {

@@ -1,6 +1,15 @@
-.header__list{
+.header__list {
     display: flex;
     list-style-type: none;
-    margin: 0;
+    margin: auto 0 8px 0;
+    gap: 18px;
+    justify-content: flex-end;
     padding: 0;
+    max-height: 28px;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+    max-height: 20px;
+    }
 }
