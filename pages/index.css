@@ -21,14 +21,14 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
-@import url(../blocks/footer/__link/__element/footer__link__element.css);
+@import url(../blocks/footer/__link-element/footer__link-element.css);
 
 
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list/__element/intro__list__element.css);
-@import url(../blocks/intro/__list/__element/__pharagraph/Intro__list__element__pharagraph.css);
-@import url(../blocks/intro/__list/__span-accent/intro__list__span-accent.css);
+@import url(../blocks/intro/__list-element/intro__list-element.css);
+@import url(../blocks/intro/__list-element-pharagraph/Intro__list-element-pharagraph.css);
+@import url(../blocks/intro/__list-span-accent/intro__list-span-accent.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
 
