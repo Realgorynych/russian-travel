@@ -1,14 +1,15 @@
 .place__pharagraph {
-    width: 484px;
+    max-width: 484px;
     margin: 0 0 26px 0;
-    font-family: 'Inter',"Arial";
+    font-family: 'Inter', "Arial";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
 }
-.place__pharagraph:last-child{
+
+.place__pharagraph:last-child {
     margin-bottom: 0;
 }
 
@@ -16,19 +17,18 @@
     .place__pharagraph {
         max-width: 456px;
     }
-
 }
+
 @media screen and (max-width: 768px) {
     .place__pharagraph {
         max-width: 352px;
         font-size: 16px;
     }
-
 }
+
 @media screen and (max-width: 320px) {
     .place__pharagraph {
         max-width: 288px;
         margin-left: 16px;
     }
-
 }

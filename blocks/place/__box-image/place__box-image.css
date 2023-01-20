@@ -2,9 +2,9 @@
     display: flex;
     margin: 0;
 }
+
 @media screen and (max-width: 320px) {
     .place__box-image {
         flex-direction: column;
     }
-
 }

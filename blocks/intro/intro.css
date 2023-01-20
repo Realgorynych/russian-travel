@@ -1,25 +1,28 @@
 .intro {
-    width: 690px;
+    max-width: 690px;
     margin: auto auto 148px auto;
     margin-bottom: 92px;
     text-align: left;
 }
+
 @media screen and (max-width: 1024px) {
-    .intro{
+    .intro {
         margin-left: 48px;
     }
 }
+
 @media screen and (max-width: 768px) {
-    .intro{
+    .intro {
         max-width: 720px;
         margin-left: 24px;
-        margin-bottom:88px;
+        margin-bottom: 88px;
     }
 }
+
 @media screen and (max-width: 320px) {
-    .intro{
+    .intro {
         max-width: 288px;
         margin-left: 16px;
-        margin-bottom:64px;
+        margin-bottom: 64px;
     }
 }

@@ -1,31 +1,37 @@
 .place {
     margin: 92px auto 80px auto;
-    width: 984px;
+    max-width: 984px;
 }
-.place:last-child{
+
+.place:last-child {
     margin-bottom: 92px;
 }
+
 @media screen and (max-width: 1024px) {
     .place {
         margin-bottom: 80px;
         max-width: 928px;
     }
 }
+
 @media screen and (max-width: 768px) {
     .place {
         max-width: 720px;
         margin-bottom: 73px;
     }
-    .place:last-child{
+
+    .place:last-child {
         margin-bottom: 90px;
     }
 }
+
 @media screen and (max-width: 320px) {
     .place {
         max-width: 320px;
         margin-bottom: 50px;
     }
-    .place:last-child{
+
+    .place:last-child {
         margin-bottom: 66px;
     }
 }

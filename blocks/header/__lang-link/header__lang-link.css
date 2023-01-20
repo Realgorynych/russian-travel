@@ -17,16 +17,10 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 768px){
-    .header__lang-link{
-
-    }
-}
 @media screen and (max-width: 320px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;
         max-height: 20px;
     }
-
 }

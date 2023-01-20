@@ -6,14 +6,11 @@
     width: 1184px;
     height: 740px;
     text-decoration: none;
-
-
     background-image: url(../../../images/cover-trains.jpg);
     background-repeat: no-repeat;
     background-position: center;
     margin: 0;
     background-size: cover;
-
 }
 
 .cover__overlay:hover {}
