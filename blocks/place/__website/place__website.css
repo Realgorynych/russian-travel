@@ -21,5 +21,6 @@
     .place__website {
         margin-left: 16px;
         max-width: 288px;
+        margin-bottom: 32px;
     }
 }

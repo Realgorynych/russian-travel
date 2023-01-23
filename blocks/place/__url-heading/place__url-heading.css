@@ -10,10 +10,3 @@
     color: #AAAAAA;
     text-transform: uppercase;
 }
-
-@media screen and (max-width: 320px) {
-    .place__url-heading {
-        font-size: 18px;
-        line-height: 22px;
-    }
-}

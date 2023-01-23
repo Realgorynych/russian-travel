@@ -2,11 +2,12 @@
     display: flex;
     margin: 0;
     gap: 18px;
+    flex-wrap: wrap;
 }
+
 @media screen and (max-width: 320px) {
     .footer__link {
         flex-direction: column;
         gap: 32px;
     }
-
 }

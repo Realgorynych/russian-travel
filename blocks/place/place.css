@@ -1,5 +1,5 @@
 .place {
-    margin: 92px auto 80px auto;
+    margin: 0 auto 80px auto;
     max-width: 984px;
 }
 
@@ -29,9 +29,14 @@
     .place {
         max-width: 320px;
         margin-bottom: 50px;
+        margin-top: 0;
     }
 
     .place:last-child {
         margin-bottom: 66px;
+    }
+
+    .place:first-child {
+        margin-top: 0;
     }
 }

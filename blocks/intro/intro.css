@@ -1,8 +1,10 @@
 .intro {
-    max-width: 690px;
-    margin: auto auto 148px auto;
+    max-width: 989px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
     margin-bottom: 92px;
-    text-align: left;
 }
 
 @media screen and (max-width: 1024px) {
