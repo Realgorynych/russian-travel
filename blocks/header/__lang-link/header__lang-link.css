@@ -9,7 +9,6 @@
     line-height: 28px;
     text-align: right;
     color: #FFFFFF;
-    max-height: 28px;
 }
 
 .header__lang-link:hover {
@@ -21,6 +20,5 @@
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;
-        max-height: 20px;
     }
 }
