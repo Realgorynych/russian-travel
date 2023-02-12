@@ -10,8 +10,8 @@
     transition: 1s ease-in-out;
 }
 
-.footer__link-element:hover{
-opacity: 0.8;
+.footer__link-element:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 320px) {

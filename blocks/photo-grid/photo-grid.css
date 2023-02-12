@@ -27,6 +27,12 @@
         margin-bottom: 88px;
     }
 }
+@media screen and (max-width: 372px) {
+    .photo-grid{
+        grid-template-columns: repeat(auto-fill, 100%);
+    }
+    
+}
 
 @media screen and (max-width: 320px) {
     .photo-grid {
