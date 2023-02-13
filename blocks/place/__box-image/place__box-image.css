@@ -3,13 +3,7 @@
     margin: 0;
 }
 
-@media screen and (max-width: 560px) {
-    .place__box-image {
-        flex-wrap: wrap;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 670px) {
     .place__box-image {
         flex-direction: column;
     }

@@ -10,6 +10,13 @@
     flex-wrap: wrap;
 }
 
+@media screen and (max-width: 1280px) {
+    .footer {
+        margin-right: 48px;
+        margin-left: 48px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .footer {
         max-width: 928px;
@@ -20,10 +27,12 @@
     .footer {
         max-width: 720px;
         margin-top: 88px;
+        margin-right: 24px;
+        margin-left: 24px;
     }
 }
 
-@media screen and (max-width: 681px) {
+@media screen and (max-width: 731px) {
     .footer {
         flex-direction: column;
         justify-content: flex-start;
@@ -33,3 +42,4 @@
         margin-top: 64px;
     }
 }
+

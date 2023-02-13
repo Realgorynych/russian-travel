@@ -10,7 +10,7 @@
     min-width: 186px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 731px) {
     .footer__copyright {
         flex-direction: column;
         gap: 32px;

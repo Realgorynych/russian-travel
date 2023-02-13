@@ -6,11 +6,13 @@
     font-size: 72px;
     line-height: 76px;
     color: #FFFFFF;
+    width: 460px;
 }
 
 @media screen and (max-width: 1024px) {
     .place__title {
         margin-right: 32px;
+        width: 440px;
     }
 }
 
@@ -19,6 +21,7 @@
         margin-right: 28px;
         font-size: 42px;
         line-height: 46px;
+        width: 340px;
     }
 }
 
@@ -26,6 +29,8 @@
     .place__title {
         font-size: 32px;
         line-height: 35px;
+        width: 260px;
+        margin-right: 0;
     }
 }
 
