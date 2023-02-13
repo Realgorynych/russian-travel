@@ -12,14 +12,7 @@
     position: relative;
 }
 
-@media screen and (max-width: 370px){
-    .cover__title{
-        max-width: 100%;
-        font-size: 50px;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .cover__title {
         max-width: 250px;
         font-size: 32px;
